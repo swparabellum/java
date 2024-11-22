@@ -1,18 +1,49 @@
 public class Study01 {
     public static void main(String[] args) {
+
+        /*
         Study01 std = new Study01();
 
-        for (int i = 1; i < 6; i++) {
+
+
+        std.dd();
+         
+
+         String [] a = new String[10];
+         for(int i=0;i<10;i++){
+            if(i%2==0){
+                a[i] = "O";
+            }else{
+                a[i] = "X";
+            }
+         }
+        
+        //System.out.println(a);
+
+         String [][] b = new String[5][3];
+
+         for(int i = 0; i < 5; i ++){
+            for(int j = 0; j < 3; j++){
+                if(j==1){
+                    b[i][j] = (i%2 == 0) ? "X" : "O" ;
+                }else{
+                    b[i][j] = (i%2 == 0) ? "O" : "X" ;
+                }
+                System.out.print(b[i][j]);
+            }
+            System.out.println();
+         }
+
+         */
+
+         for (int i = 1; i < 6; i++) {
             for( int j = 0; j<i; j++){
                 System.out.print("*");
             }
             System.out.println("");
         }
-
-        std.dd();
-        
     }
-    
+
     public void dd(){
         for(int i=1; i<10;i++){
 

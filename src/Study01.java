@@ -1,8 +1,8 @@
 public class Study01 {
     public static void main(String[] args) {
 
-        /*
         Study01 std = new Study01();
+        /*
 
 
 
@@ -34,14 +34,16 @@ public class Study01 {
             System.out.println();
          }
 
-         */
+         
 
          for (int i = 1; i < 6; i++) {
-            for( int j = 0; j<i; j++){
+            for( int j = 6; j>i; j--){
                 System.out.print("*");
             }
             System.out.println("");
         }
+            */
+
     }
 
     public void dd(){

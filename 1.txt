@@ -1,0 +1,3 @@
+main branch에 작성한 텍스트입니다.
+
+not_main에 작성한 텍스트입니다.
